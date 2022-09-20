@@ -101,7 +101,8 @@
                 <div class="contain">
 
                     <?php
-                    $conn = mysqli_connect('localhost', 'root', '', 'test_db');
+                     $conn = mysqli_connect('containers-us-west-29.railway.app', 'root', 'UAvnEkYU3gQMmleuntcS', 'railway');
+//                     $conn = mysqli_connect('localhost', 'root', '', 'test_db');
 
                     $query  = "SELECT * FROM images";
 
