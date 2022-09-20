@@ -103,7 +103,7 @@
                     <?php
                     $conn = mysqli_connect("railway","containers-us-west-80.railway.app","IydtOL4J7OXSWWHwDfVT","root","mysql");
 
-//                      $conn = mysqli_connect('containers-us-west-29.railway.app', 'root', 'UAvnEkYU3gQMmleuntcS', 'railway');
+
 //                     $conn = mysqli_connect('localhost', 'root', '', 'test_db');
 
                     $query  = "SELECT * FROM images";
