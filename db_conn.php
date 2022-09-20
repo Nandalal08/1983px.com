@@ -12,10 +12,10 @@
 $MYSQLDATABASE="railway";
 $MYSQLHOST=    "containers-us-west-80.railway.app";
 $MYSQLPASSWORD="IydtOL4J7OXSWWHwDfVT";
-$MYSQLPORT=    "7124";
+// $MYSQLPORT=    "7124";
 $MYSQLUSER=    "root";
 $MYSQL_URL=    "mysql";
-$conn = mysqli_connect($MYSQLDATABASE, $MYSQLHOST, $MYSQLPASSWORD,$MYSQLPORT,$MYSQLUSER,$MYSQL_URL);
+$conn = mysqli_connect($MYSQLDATABASE, $MYSQLHOST, $MYSQLPASSWORD,$MYSQLUSER,$MYSQL_URL);
 
 if (!$conn) {
 	echo "Connection failed!";
